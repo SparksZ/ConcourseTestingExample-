@@ -3,5 +3,12 @@ resources:
   - name: ConcourseTestingExample(master)
     type: git
     source:
-      uri:
+      uri: git@github.homedepot.com:zxs5629/ConcourseTestingExample-.git
       branch: master
+
+jobs:
+  - name: HelloWorld
+    plan:
+    - get: ConcourseTestingExample(master)
+    - task: echo
+      file: CI/helloWorld.yml
