@@ -10,4 +10,4 @@ inputs:
 - name: ConcourseTestingExample(master)
 
 run:
-  path: ./CI/scripts/test.sh
+  path: CI/scripts/test.sh
