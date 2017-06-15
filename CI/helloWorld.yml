@@ -2,7 +2,9 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: zsparks1/javagcloudmaven
+  source:
+    repository: zsparks1/javagcloud
+    tag: latest
 
 inputs:
 - name: ConcourseTestingExample(master)
