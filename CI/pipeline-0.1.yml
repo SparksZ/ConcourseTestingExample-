@@ -1,0 +1,7 @@
+---
+resources:
+  - name: ConcourseTestingExample(master)
+    type: git
+    source:
+      uri:
+      branch: master
