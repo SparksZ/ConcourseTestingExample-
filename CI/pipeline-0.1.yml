@@ -5,6 +5,7 @@ resources:
     source:
       uri: git@github.homedepot.com:zxs5629/ConcourseTestingExample-.git
       branch: master
+      private_key: {{github-private-key}}
 
 jobs:
   - name: HelloWorld
