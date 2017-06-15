@@ -898,7 +898,7 @@
       <updated>1497466973245</updated>
       <workItem from="1497466978239" duration="1077000" />
       <workItem from="1497529213362" duration="4830000" />
-      <workItem from="1497554246465" duration="138000" />
+      <workItem from="1497554246465" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="pipeline defined.">
       <created>1497530330649</created>
@@ -986,7 +986,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6045000" />
+    <option name="totallyTimeSpent" value="6079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="957" extended-state="6" />
