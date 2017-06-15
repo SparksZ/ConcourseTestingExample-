@@ -11,5 +11,6 @@ jobs:
   - name: HelloWorld
     plan:
     - get: ConcourseTestingExample(master)
+      trigger: true
     - task: echo
-      file: CI/helloWorld.yml
+      file: ConcourseTestingExample(master)/CI/helloWorld.yml
