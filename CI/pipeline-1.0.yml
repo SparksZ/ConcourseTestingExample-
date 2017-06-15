@@ -3,7 +3,7 @@ resources:
   - name: ConcourseTestingExample(master)
     type: git
     source:
-      uri: git@github.homedepot.com:zxs5629/ConcourseTestingExample-.git
+      uri: git@github.com:SparksZ/ConcourseTestingExample-.git
       branch: master
       private_key: {{github-private-key}}
 
