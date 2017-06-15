@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31062a0d-0fdb-44bd-925d-bff80a5fe6c6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CI/helloWorld.yml" afterPath="$PROJECT_DIR$/CI/helloWorld.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CI/pipeline-0.1.yml" afterPath="$PROJECT_DIR$/CI/pipeline-0.1.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CI/test.yml" afterPath="$PROJECT_DIR$/CI/test.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +43,8 @@
       <file leaf-file-name="pipeline-0.1.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CI/pipeline-0.1.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="17" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -63,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipeline-1.0.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pipeline-1.0.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CI/pipeline-1.0.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="384">
+              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -93,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CI/test.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
@@ -152,12 +149,12 @@
         <option value="$PROJECT_DIR$/src/test/java/mainTest.java" />
         <option value="$PROJECT_DIR$/CI/scripts/helloWorld.sh" />
         <option value="$PROJECT_DIR$/CI/scripts/test.sh" />
-        <option value="$PROJECT_DIR$/CI/pipeline-1.0.yml" />
         <option value="$PROJECT_DIR$/CI/scripts/deploy.sh" />
         <option value="$PROJECT_DIR$/CI/pipeline-0.1.yml" />
         <option value="$PROJECT_DIR$/CI/helloWorld.yml" />
         <option value="$PROJECT_DIR$/CI/deploy.yml" />
         <option value="$PROJECT_DIR$/CI/test.yml" />
+        <option value="$PROJECT_DIR$/CI/pipeline-1.0.yml" />
       </list>
     </option>
   </component>
@@ -899,7 +896,7 @@
       <option name="presentableId" value="Default" />
       <updated>1497466973245</updated>
       <workItem from="1497466978239" duration="1077000" />
-      <workItem from="1497529213362" duration="3326000" />
+      <workItem from="1497529213362" duration="3524000" />
     </task>
     <task id="LOCAL-00001" summary="pipeline defined.">
       <created>1497530330649</created>
@@ -950,7 +947,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497535624645</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pipeline defined. x8">
+      <created>1497535953570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1497535953570</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -959,7 +963,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4403000" />
+    <option name="totallyTimeSpent" value="4601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1347" extended-state="6" />
@@ -1012,7 +1016,8 @@
     <MESSAGE value="pipeline defined. x5" />
     <MESSAGE value="pipeline defined. x6" />
     <MESSAGE value="pipeline defined. x7" />
-    <option name="LAST_COMMIT_MESSAGE" value="pipeline defined. x7" />
+    <MESSAGE value="pipeline defined. x8" />
+    <option name="LAST_COMMIT_MESSAGE" value="pipeline defined. x8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1079,14 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CI/pipeline-1.0.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CI/scripts/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -1111,18 +1108,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CI/pipeline-0.1.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CI/helloWorld.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CI/test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CI/pipeline-0.1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="17" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1135,10 +1140,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CI/test.yml">
+    <entry file="file://$PROJECT_DIR$/CI/pipeline-1.0.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
