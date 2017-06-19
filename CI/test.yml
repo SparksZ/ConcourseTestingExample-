@@ -10,4 +10,4 @@ inputs:
 - name: code-repo
 run:
   dir: code-repo
-  path: CI/scripts/test.sh
+  path: ConcourseTestingExample/CI/scripts/test.sh
